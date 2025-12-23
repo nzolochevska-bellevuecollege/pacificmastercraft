@@ -53,7 +53,9 @@ const ServiceAreas = () => {
                   { top: "25%", left: "60%", label: "Kirkland" },
                   { top: "45%", left: "30%", label: "Seattle" },
                   { top: "70%", left: "50%", label: "Tacoma" },
-                  { top: "20%", left: "35%", label: "Mountlake T." },
+                  { top: "15%", left: "40%", label: "Everett" },
+                  { top: "30%", left: "75%", label: "Bellevue" },
+                  { top: "55%", left: "70%", label: "Renton" },
                 ].map((pin, index) => (
                   <motion.div
                     key={pin.label}

@@ -6,6 +6,7 @@ import {
   Grid3X3, 
   Droplets, 
   Wrench,
+  UtensilsCrossed,
   ArrowRight 
 } from "lucide-react";
 
@@ -24,6 +25,11 @@ const services = [
     icon: Bath,
     title: "Bathroom Remodels",
     description: "Complete bathroom transformations from design to finish. Modern fixtures, custom vanities, and quality finishes.",
+  },
+  {
+    icon: UtensilsCrossed,
+    title: "Kitchen Remodeling",
+    description: "Transform your kitchen with custom cabinetry, countertops, and modern layouts. Full-service kitchen renovations.",
   },
   {
     icon: Grid3X3,

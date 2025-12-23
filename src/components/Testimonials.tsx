@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Quote, Star } from "lucide-react";
+import { Quote, Star, ExternalLink } from "lucide-react";
 
 const testimonials = [
   {
@@ -33,7 +33,7 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <span className="construction-badge mb-4 inline-block">Testimonials</span>
+          <span className="construction-badge mb-4 inline-block">Verified Google Reviews</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             What Our <span className="text-gradient">Clients Say</span>
           </h2>
@@ -74,6 +74,24 @@ const Testimonials = () => {
             </motion.div>
           ))}
         </div>
+
+        {/* Google Reviews Link */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-10"
+        >
+          <a 
+            href="https://maps.app.goo.gl/PxmBFs1egcoeEtwG8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold transition-colors"
+          >
+            See All Reviews on Google
+            <ExternalLink className="w-4 h-4" />
+          </a>
+        </motion.div>
       </div>
     </section>
   );
