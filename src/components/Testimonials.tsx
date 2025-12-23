@@ -3,21 +3,21 @@ import { Quote, Star, ExternalLink } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah M.",
-    location: "Kirkland, WA",
-    text: "Pacific Master Craft built our dream deck. The attention to detail was incredible, and they finished on time. Highly recommend!",
+    name: "Konstantin R.",
+    location: "Seattle Area",
+    text: "Fantastic job on our stair rail restoration. Everything turned out perfectly, on schedule, with no adjustments needed.",
     rating: 5,
   },
   {
-    name: "Mike T.",
-    location: "Seattle, WA",
-    text: "Professional, honest, and skilled. Our bathroom remodel exceeded expectations. The tile work is absolutely stunning.",
+    name: "Gala D.",
+    location: "Seattle Area",
+    text: "Pacific Master Craft exceeded our expectations. Their craftsmanship and attention to detail are evident in every corner of our home.",
     rating: 5,
   },
   {
-    name: "Jennifer L.",
-    location: "Tacoma, WA",
-    text: "From the first estimate to the final walkthrough, the team was fantastic. Our new staircase is the centerpiece of our home.",
+    name: "Alan C.",
+    location: "Washington",
+    text: "Dima and the crew built our deck staircase beautifully. Very professional and communicative throughout the entire project.",
     rating: 5,
   },
 ];
