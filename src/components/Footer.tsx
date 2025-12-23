@@ -42,6 +42,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li className="text-muted-foreground">Custom Decks</li>
               <li className="text-muted-foreground">Staircases & Railings</li>
+              <li className="text-muted-foreground">Kitchen Remodeling</li>
               <li className="text-muted-foreground">Bathroom Remodels</li>
               <li className="text-muted-foreground">Custom Tile Work</li>
               <li className="text-muted-foreground">General Carpentry</li>
@@ -66,7 +67,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary mt-0.5" />
-                <span>13105 111th Pl NE<br />Kirkland, WA</span>
+                <span>914 N Union Ave<br />Tacoma, WA 98406</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Clock className="w-4 h-4 text-primary" />
@@ -83,7 +84,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-4">
             <a 
-              href="https://facebook.com" 
+              href="https://www.facebook.com/PacificMasterCraftLLC" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all"
@@ -91,7 +92,7 @@ const Footer = () => {
               <Facebook className="w-5 h-5" />
             </a>
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/pacificmastercraftllc/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all"

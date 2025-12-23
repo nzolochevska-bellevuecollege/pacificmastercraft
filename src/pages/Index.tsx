@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import ServiceAreas from "@/components/ServiceAreas";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import StickyFloatingSocials from "@/components/StickyFloatingSocials";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <ServiceAreas />
       <Contact />
       <Footer />
+      <StickyFloatingSocials />
     </main>
   );
 };
